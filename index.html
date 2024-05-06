@@ -20,7 +20,6 @@
         </div>  
         <div class="form-box">
     <h1 id="Title">Sign up</h1>
-    <form onsubmit="result-false" method="post">
               <div class="input-group">
                   <div class="input-field">
                 <div class="input-field" id="nameField">
@@ -34,15 +33,16 @@
             <div class="input-group">
             <div class="input-field">
                 <i class="fa-solid fa-lock"></i>
-                <input type="kelas" id="password" placeholder="Password">
+                <input type="password" id="password" placeholder="Password">
                 
     </div>
         </div>`
                 <div class="btn-field">
                 <button onclick="login()">Login</button>
                 </div>
-        </form>
-<script type="text/javascript">
+            </div>
+        </div>
+	<script>
     function login() {
         var user = document.getElementById("username").value;
         var pass = document.getElementById("password").value;
@@ -55,7 +55,5 @@
     }
     }
 </script>
-            </div>
-        </div>
     </body>
 </html>
